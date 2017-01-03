@@ -7,10 +7,10 @@
 //
 
 import UIKit
+       
+let currentBalanceKeyPath = "currentBalance"
 
 class Account: NSObject {
-   
-    let currentBalanceKeyPath = "currentBalance"
     let startingBalance = 100.0
     var currentBalance = 0.0
     
